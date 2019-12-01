@@ -9,19 +9,20 @@
         <link rel="stylesheet" href="css/uikit.min.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="shortcut icon" href="img/favicon_logo.jpg" type="image/x-icon">
-        <title>Glozzom</title>
+        <link rel="shortcut icon" href="img/cassie-boca-rz6sgZkA9Vc-unsplash.jpg" type="image/x-icon">
+        <title>DIU CFO</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/navbar-fixed.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <!--navbar  menu-->
-        <nav class="navbar navbar-dark navbar-expand-md py-4 fixed-top" uk-sticky="top: 270; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+    
+       <nav class="navbar navbar-dark navbar-expand-md py-4 fixed-top" uk-sticky="top: 270; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up" style="border-radius: 25px; border: 3px solid #fff">
             <div class="container">
-                <a href="#showcases" class="navbar-brand">
-                    <img src="img/favicon_logo.jpg" class="img-fluid mr-1 rounded-circle" width="40" height="40" alt="B">
-                    <h3 class="d-inline align-middle">Glozzom</h3>
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/cassie-boca-rz6sgZkA9Vc-unsplash.jpg" class="img-fluid mr-1 rounded-circle" width="40" height="40" alt="B">
+                    <p class="d-inline align-middle">DIU Canteen Food Order</p>
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -32,18 +33,38 @@
                             <a class="nav-link active"href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">About</a>
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Products</a> 
+                            <div class="dropdown-menu ">
+                                <a class="dropdown-item text-dark font-weight-bold" href="colddrink.html" >Cold Drinks</a>
+                                <a class="dropdown-item text-dark  font-weight-bold" href="fastfood.html">Fast Food</a>
+                                <a class="dropdown-item text-dark  font-weight-bold" href="kids.html">Fruits</a>
+                                <a class="dropdown-item text-dark  font-weight-bold" href="kids.html">Tea</a>
+                                <a class="dropdown-item text-dark  font-weight-bold" href="kids.html">Coffee</a>
+                                <a class="dropdown-item text-dark  font-weight-bold" href="kids.html">Chocolates</a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="#authers">Meet The Authers</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
+
+                        <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"></a> 
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item text-dark font-weight-bold" href="login.html" >Login</a>
+                                    <a class="dropdown-item text-dark  font-weight-bold" href="registration.html">Registration</a>
+                                    
+                                </div>
+                            </li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
+       
         <!--carousel slide area-->
         <section id="shocase" class="bg-dark">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -53,28 +74,22 @@
                     <li data-slide-to="2" data-target="#myCarousel"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item carousel-img-1 active dark-overlayimg">
+                    <div class="carousel-item carousel-img-1 active dark-overlaying">
                         <div class="container">
                             <div class="carousel-caption mb-3 pb-3 mb-md-5 pb-md-5 textCol">
-                                <p class="display-4 text-left">We are a of expert and experienced persons at garments items manufacturer from <strong>BD SMART FASHION</strong>  at Bangladesh.</p>
-                                <p class="lead"><strong>Knit items:</strong> T-shirt, Polo Shirt, Ladies Tops, Fancy Tops, Romper, Boxer Shorts, Pants, Knit Trouser, Night Wear and Sleep Wear Etc.</p>
+                                <p class="display-4 text-left">We are a of expert and experienced persons <strong class="text-danger">Alvi</strong></p>
+                            
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-img-2">
                         <div class="container">
-                            <div class="carousel-caption mb-3 pb-3">
-                                <p class="display-4">We are a of expert and experienced persons at garments items manufacturer from <strong>BD SMART FASHION</strong>  at Bangladesh.</p>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="carousel-item carousel-img-3">
                         <div class="container">
-                            <div class="carousel-caption mb-3 pb-4 text-left">
-                                <h2 class="display-4">Heading Three</h2>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias accusamus veniam eveniet illo autem .</p>
-                                <a href="" class="btn btn-primary">Learn More</a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -86,86 +101,58 @@
                 </a>
             </div>
         </section>
-        <!--home icon-->
-        <section id="homeicon" class="py-5 text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 my-2">
-                        <i class="fa fa-gears"></i>
-                        <h2 class="my-2">Turing Geares</h2>
-                        <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odit?</p>
-                    </div>
-                    <div class="col-md-4 my-2">
-                        <i class="fa fa-cloud"></i>
-                        <h2 class="my-2">Sending Data</h2>
-                        <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odit?</p>
-                    </div>
-                    <div class="col-md-4 my-2">
-                        <i class="fa fa-cart-plus"></i>
-                        <h2 class="my-2">Making Money</h2>
-                        <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, odit?</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Get started home-->
-        <section id="getstarted" class="py-5 text-center text-light">
-            <div class="dark-overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <h3>This is the dark started section</h3>
-                            <p  class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam excepturi saepe illum, hic accusantium.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+        <marquee style="border:2px dotted rgb(199, 8, 224);" class="bg-dark text-light" behavior="scroll" direction="left"><strong> DIU Canteen Visit</strong></marquee>
+
+
+        
         <!--home video section-->
-        <section id="home-video" class="text-center py-5 text-light">
+        <section id="home-video" class="text-center text-dark" style="padding-bottom: 15px;">
             <div class="dark-video">
                 <div class="container">
                     <div class="row">
                         <div class="col">
+                                <h4 >Click </h4>
                             <div uk-lightbox>
-                                <a href="https://youtu.be/F7fBsN_E60Q" class="text-light">
+                                <a href="https://youtu.be/IO9y5KH6KU0" class="text-light">
                                 <i class="fa fa-play play"></i>
                                 </a> 
                             </div>
-                            <h3 >Bootstrap 4 Crash Cours</h3>
+                        
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <hr>
         <!--photo gallery-->
         <section id="gallery" class="py-5 " uk-lightbox>
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
-                        <h2>Photo Gallery</h2>
+                        <h2>Food Gallery</h2>
                         <p class="lead">Check out our photo</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div>
-                            <a href="img/girl4.jpg">
-                            <img src="img/girl4.jpg" alt="" class="img-fluid rounded">
+                            <a href="img/alex-munsell-auIbTAcSH6E-unsplash.jpg">
+                            <img src="img/alex-munsell-auIbTAcSH6E-unsplash.jpg" alt="" class="img-fluid rounded">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div>
-                            <a href="img/girl4.jpg">
-                            <img src="img/girl4.jpg" alt="" class="img-fluid rounded">
+                            <a href="img/akemy-mory-O4CVzHODjjM-unsplash.jpg">
+                            <img src="img/akemy-mory-O4CVzHODjjM-unsplash.jpg" alt="" class="img-fluid rounded">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div>
-                            <a href="img/girl4.jpg">
-                            <img src="img/girl4.jpg" alt="" class="img-fluid rounded">
+                            <a href="img/angelo-pantazis-gMCO0iXeo_c-unsplash.jpg">
+                            <img src="img/angelo-pantazis-gMCO0iXeo_c-unsplash.jpg" alt="" class="img-fluid rounded">
                             </a>
                         </div>
                     </div>
@@ -173,22 +160,22 @@
                 <div class="row pt-0 pt-md-4">
                     <div class="col-lg-4">
                         <div>
-                            <a href="img/girl4.jpg">
-                            <img src="img/girl4.jpg" alt="" class="img-fluid rounded">
+                            <a href="img/anita-austvika-Hwj8Wbr9Evk-unsplash.jpg">
+                            <img src="img/anita-austvika-Hwj8Wbr9Evk-unsplash.jpg" alt="" class="img-fluid rounded">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div>
-                            <a href="img/girl4.jpg">
-                            <img src="img/girl4.jpg" alt="" class="img-fluid rounded">
+                            <a href="img/casey-lee-awj7sRviVXo-unsplash.jpg">
+                            <img src="img/casey-lee-awj7sRviVXo-unsplash.jpg" alt="" class="img-fluid rounded">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div>
-                            <a href="img/girl4.jpg">
-                            <img src="img/girl4.jpg" alt="" class="img-fluid rounded">
+                            <a href="img/chinh-le-duc-G7jw4HTCod0-unsplash.jpg">
+                            <img src="img/chinh-le-duc-G7jw4HTCod0-unsplash.jpg" alt="" class="img-fluid rounded">
                             </a>
                         </div>
                     </div>
@@ -198,31 +185,33 @@
         <!--icon boxes-->
         <section id="iconboxes" class="py-5">
             <div class="container">
+                    <h2 class="text-center text-dark">Our Services</h2>
                 <div class="row text-center">
+                      
                     <div class="col-md-4">
                         <div class="card bg-success text-light">
                             <div class="card-body">
-                                <i class="fa fa-envelope"></i>
-                                <h3>Lorem Some</h3>
-                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, laborum.</p>
+                                <i class="fa fa-car"></i>
+                                <h3>Get Order</h3>
+                                <p class="lead">You can order our product from any place in Dhaka.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card bg-dark text-light">
                             <div class="card-body">
-                                <i class="fa fa-car"></i>
-                                <h3>Lorem Some</h3>
-                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, laborum.</p>
+                                <i class="fa fa-address-card-o"></i>
+                                <h3>Registration</h3>
+                                <p class="lead">Before the order, you must have to Registration</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card bg-primary text-light">
                             <div class="card-body">
-                                <i class="fa fa-play"></i>
-                                <h3>Lorem Some</h3>
-                                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, laborum.</p>
+                                <i class="fa fa-refresh fa-spin"></i>
+                                <h3>NO Hesitation</h3>
+                                <p class="lead">NO hesitation before get the order. Give order get first.</p>
                             </div>
                         </div>
                     </div>
@@ -271,17 +260,17 @@
                         <div class="slider">
                             <div>
                                 <blockquote class="blockquote">
-                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, corporis.</p>
+                                    <p class="lead">An apple a day keeps the doctor away!</p>
                                     <footer class="blockquote-footer">
-                                        Jane Alam from <a href="www.janealame.com/"> cse</a>
+                                        Doctor<a href="#"></a>
                                     </footer>
                                 </blockquote>
                             </div>
                             <div>
                                 <blockquote class="blockquote">
-                                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, corporis.</p>
+                                    <p class="lead">Health is wealth</p>
                                     <footer class="blockquote-footer">
-                                        Hazi Mohammad from <a href="www.janealame.com/"> cse</a>
+                                        
                                     </footer>
                                 </blockquote>
                             </div>
@@ -290,173 +279,13 @@
                 </div>
             </div>
         </section>
-        <!--service price table-->
-        <section id="service-table" class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 my-2">
-                        <div class="card text-center">
-                            <div class="card-header">
-                                <h3>Service Plan One</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h4>$99.99/month</h4>
-                                </div>
-                                <div class="card-text lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, sapiente?</div>
-                                <ul class="list-group ">
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature one</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature two</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature three</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature four</span></i>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted ">1 year plan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-2">
-                        <div class="card text-center">
-                            <div class="card-header">
-                                <h3>Service Plan One</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h4>$99.99/month</h4>
-                                </div>
-                                <div class="card-text lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, sapiente?</div>
-                                <ul class="list-group ">
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature Two</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature two</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature three</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature four</span></i>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted ">1 year plan</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 my-2">
-                        <div class="card text-center">
-                            <div class="card-header">
-                                <h3>Service Plan Three</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h4>$99.99/month</h4>
-                                </div>
-                                <div class="card-text lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, sapiente?</div>
-                                <ul class="list-group ">
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature one</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature two</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature three</span></i>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <i class="fa fa-check"><span class="ml-2">Feature four</span></i>
-                                    </li>
-                                </ul>
-                                <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
-                            </div>
-                            <div class="card-footer">
-                                <p class="text-muted ">1 year plan</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--picture with price-->
-        <section id="price-table" class="py-5">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>Levi's</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <img src="img/girl2.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="card-text">
-                                    <p><strong>Price:</strong> $9.99<br>
-                                        <strong>type:</strong> T-shart.
-                                    </p>
-                                </div>
-                                <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>Levi's</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <img src="img/new1.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="card-text">
-                                    <p><strong>Price:</strong> $9.99<br>
-                                        <strong>type:</strong> T-shart.
-                                    </p>
-                                </div>
-                                <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>Levi's</h3>
-                            </div>
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <img src="img/girl4.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="card-text">
-                                    <p><strong>Price:</strong> $9.99<br>
-                                        <strong>type:</strong> T-shart.
-                                    </p>
-                                </div>
-                                <a href="#" class="btn btn-block btn-primary mt-2">Order Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!--fq question-->
-        <section id="accordion" class="py-5 bg-dark text-light">
+        <section id="accordion" class="py-5 bg-info text-light">
             <div class="container">
                 <div class="row text-center mb-3">
                     <div class="col">
-                        <h2>Frequently Asked Questions</h2>
+                        <h2>Query</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -464,31 +293,31 @@
                         <div class="card bg-light text-dark mb-3">
                             <div class="card-header" id="headerone">
                                 <h5 class="mb-0">
-                                    <a href="#collapseone" class="text-dark" data-toggle="collapse">Question One?</a>
+                                    <a href="#collapseone" class="text-dark" data-toggle="collapse">Trust?</a>
                                 </h5>
                             </div>
                             <div id="collapseone" class="collapse p-2" data-parent="#accordion">
-                                <p class="lead  mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corporis?</p>
+                                <p class="lead  mb-0">This site is very trastable for a customer</p>
                             </div>
                         </div>
                         <div class="card bg-light text-dark mb-3">
                             <div class="card-header" id="headertwo">
                                 <h5 class="mb-0">
-                                    <a href="#collapsetwo" class="text-dark" data-toggle="collapse">Question Two?</a>
+                                    <a href="#collapsetwo" class="text-dark" data-toggle="collapse">Payment?</a>
                                 </h5>
                             </div>
                             <div id="collapsetwo" class="collapse p-2" data-parent="#accordion">
-                                <p class="lead  mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corporis?</p>
+                                <p class="lead  mb-0">This paymant system is so simple, we access payment by <span class="text-primary pr-2">Card</span><span class="color:blue pr-2">Paypal</span><span class="text-danger pr-2">Bkash</span><span class="text-warning">Cash</span></p>
                             </div>
                         </div>
                         <div class="card bg-light text-dark mb-3">
                             <div class="card-header" id="headerthree">
                                 <h5 class="mb-0">
-                                    <a href="#collapsethree" class="text-dark" data-toggle="collapse">Question Three?</a>
+                                    <a href="#collapsethree" class="text-dark" data-toggle="collapse">Delivery?</a>
                                 </h5>
                             </div>
                             <div id="collapsethree" class="collapse p-2" data-parent="#accordion">
-                                <p class="lead  mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corporis?</p>
+                                <p class="lead  mb-0">We delivery the product by hand to hand, By Ubar, By Parct</p>
                             </div>
                         </div>
                     </div>
@@ -496,11 +325,11 @@
                         <div class="card bg-light text-dark mb-3">
                             <div class="card-header" id="headerfour">
                                 <h5 class="mb-0">
-                                    <a href="#collapsefour" class="text-dark" data-toggle="collapse">Question Four?</a>
+                                    <a href="#collapsefour" class="text-dark" data-toggle="collapse"><span class="text-danger">Expire?</span> </a>
                                 </h5>
                             </div>
                             <div id="collapsefour" class="collapse p-2" data-parent="#accordion">
-                                <p class="lead  mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, corporis?</p>
+                                <p class="lead  mb-0">We are very senser to this matter?</p>
                             </div>
                         </div>
                         <div class="card bg-light text-dark mb-3">
@@ -528,117 +357,53 @@
             </div>
         </section>
    
-        <!--blog section-->
-        <section id="blog" class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="card-columns">
-                            <div class="card">
-                                <img src="img/girl3.jpg" class="img-fluid card-img-top" alt="">
-                                <div class="card-body">
-                                    <div class="card-title">
-                                        <h4>This is the card one</h4>
-                                        <small class="text-muted">Writed By Jane Alam</small>
-                                        <hr>
-                                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, earum?
-                                        </p>
-                                        <a href="" class="btn btn-block bg-dark text-light">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                    <img src="img/girl3.jpg" class="img-fluid card-img-top" alt="">
-                                    <div class="card-body">
-                                        <div class="card-title">
-                                            <h4>This is the card one</h4>
-                                            <small class="text-muted">Writed By Jane Alam</small>
-                                            <hr>
-                                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, earum?
-                                            </p>
-                                            <a href="" class="btn btn-block bg-dark text-light">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                        <img src="img/girl3.jpg" class="img-fluid card-img-top" alt="">
-                                        <div class="card-body">
-                                            <div class="card-title">
-                                                <h4>This is the card one</h4>
-                                                <small class="text-muted">Writed By Jane Alam</small>
-                                                <hr>
-                                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, earum?
-                                                </p>
-                                                <a href="" class="btn btn-block bg-dark text-light">Read More</a>
-                                            </div>
-                                        </div>
-                                 </div>
+        
+        <!--footer area-->
+    
+        <footer id="footer-section" class="text-center bg-dark py-5 text-light" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>DIU Canteen Food Order</h2>
+                            <p>copyright &copy;2019</p>
+                            <span>Designed by:<a class="text-warning ml-2"href="https://www.facebook.com/alvi" target="_blank">Alvi</a></span>
+                            <br>
+                            <button class="btn btn-primary mt-3" data-toggle="modal" data-target="#contactModal">Contact Us</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!--contact page-->
-        <section id="contact" class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="text-center">Please fil out the form to contact us</h4>
-                                <div class="row mt-4">
-                                <div class="col-md-6">
+            </footer>
+             <!--contact Modal-->
+        <div class="modal" id="contactModal">
+                <div class="container">
+                    <div class="modal-dialog">
+                        <div class="modal-content bg-dark text-light">
+                            <div class="modal-header bg-dark">
+                                <h5 class="text-dark">Contact Us</h5>
+                                <button class="close text-light" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="https://formspree.io/bdsmartfashion@gmail.com" method="POST">
                                     <div class="form-group">
-                                        <input type="text" placeholder="First name" class="form-control">
+                                        <label for="name">Name</label>
+                                        <input type="name" placeholder="name" id="name" class="form-control" name="Name" >
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" placeholder="Last name" class="form-control">
-                                        </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" placeholder="email" id="email" class="form-control" name="Email" >
                                     </div>
-                                    <div class="col-md-6">
-                                            <div class="form-group">
-                                                <input type="email" placeholder="Email" class="form-control">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" placeholder="Phone number" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <textarea  cols="30" rows="5" placeholder="Message" class="form-control"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <a href="#" class="btn btn-block bg-dark text-light">Send</a>
-                                                </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4>Get In Touch</h4>
-                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ipsum. </p>
-                                <h4>Address</h4>
-                                <p class="lead">Uttora,10 sector. Dhaka</p
-                                >
-                                <h4>Email</h4>
-                                <p>janealamcse@gmail.com</p>
-                                <h4>Contact</h4>
-                                <p>+088 016 36273678<br>+088 016 36273678 </p>
-                               
+                                    <div class="form-group">
+                                        <label for="Message">Message</label>
+                                        <textarea class="form-control" placeholder="message....." name="message" id="message" ></textarea>
+                                    </div>
+                                    <input type="submit" value="Send" class="btn btn-primary">
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+    
 
 
 

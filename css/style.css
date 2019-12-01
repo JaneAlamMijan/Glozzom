@@ -10,16 +10,16 @@
     height: 570px;
 }
 .carousel-img-1{
-    background: url('../img/sectionbody.jpg');
+    background: url('../img/product/vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg');
     background-size: cover;
     
 }
 .carousel-img-2{
-    background: url('../img/sectionimg.jpg');
+    background: url('../img/product/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg');
     background-size: cover;
 }
 .carousel-img-3{
-    background: url('../img/section.jpg');
+    background: url('../img/product/pablo-merchan-montes-wYOPqmtDD0w-unsplash.jpg');
     background-size: cover;
 }
 .textCol{
@@ -45,7 +45,7 @@
   
 }
 #home-video{
-    background: url('../img/girlc.jpg');
+    /*background: url('../img/girlc.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -59,7 +59,9 @@
     color: #000;
 }
 
-
+.cart{
+    
+}
 
 
 
